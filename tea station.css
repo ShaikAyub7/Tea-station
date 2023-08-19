@@ -1,0 +1,14 @@
+ /* fonts**** */
+
+ @import url('https://fonts.googleapis.com/css2?family=Cairo&family=Handjet:wght@300&family=Lato:wght@300&family=Tilt+Prism&family=Vina+Sans&display=swap');
+
+ /* variables */
+ :root{
+    --clr-primary:#678e3e;
+    --clr-primary-light:#beed8c;
+    --clr-grey-1:#102a42;
+    --clr-grey-5:#617d98;
+    --clr-grey-10:#f1f5f8;
+    --clr-white:#fff;
+    
+ }
