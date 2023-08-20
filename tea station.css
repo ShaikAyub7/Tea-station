@@ -1,7 +1,10 @@
  /* fonts**** */
 
  @import url('https://fonts.googleapis.com/css2?family=Cairo&family=Handjet:wght@300&family=Lato:wght@300&family=Tilt+Prism&family=Vina+Sans&display=swap');
-
+*{
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
  /* variables */
  :root{
     --clr-primary:#678e3e;
@@ -12,6 +15,18 @@
     --clr-white:#fff;
     
  }
- h1{
-   background: red;
+ body{
+  background: var(--clr-primary-light);
  }
+ 
+.navbar{
+  display: flex;
+  justify-content:space-around;
+  background: black;
+  height: 50px;
+  color: white;
+ align-items: center;
+ position: sticky;
+ top: 0;
+ left: 0;
+}
